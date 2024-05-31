@@ -12,6 +12,7 @@ from langchain_openai import ChatOpenAI
 from langchain_community.document_loaders import TextLoader
 import constants
 
+# Enter APIKEY in constants.py file
 os.environ["OPENAI_API_KEY"] = constants.APIKEY
 
 def format_docs(docs):
